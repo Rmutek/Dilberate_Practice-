@@ -16,6 +16,10 @@ end
 
 p add_one
 
+array.each do |array| 
+  puts array.each { |space| space }. join(" ")  
+end 
+
 #Combines two arrarys 
 array = [[3, 4, 12, 4],
 [2, 7, 10, 22]]
@@ -29,3 +33,10 @@ array.each do |number|
 end 
 
 p add_one
+
+
+#prints an 
+
+combine = array.select {|num| num }
+
+p combine

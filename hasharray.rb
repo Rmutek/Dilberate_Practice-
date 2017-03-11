@@ -1,5 +1,3 @@
-#list spring supplies in an array 
-
 holiday_supplies = {
   "winter" => { 
     "Christmas" => ["lights", "tree"],
@@ -16,6 +14,15 @@ holiday_supplies = {
   }
 }
 
+#print the winter hash to the terminal 
+holiday_supplies.each do |season, holiday| 
+  puts season
+  break
+end 
+
+p holiday_supplies["winter"]
+
+#list spring supplies in an array 
 spring_supplies = []
 
 holiday_supplies.each do |season, holiday| 

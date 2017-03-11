@@ -33,6 +33,7 @@ p rating
 new_hash = movies.select{|movie| movie[:rating] < 4.0}
 
 p new_hash
+
  
 
 # #prints an 

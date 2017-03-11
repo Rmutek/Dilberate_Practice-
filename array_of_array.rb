@@ -36,7 +36,5 @@ p add_one
 
 
 #prints an 
-
-combine = array.select {|num| num }
-
+combine = array.select {|num| puts num.select {|n| }}
 p combine

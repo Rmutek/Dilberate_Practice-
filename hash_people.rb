@@ -9,12 +9,8 @@ end
 
 
 
-
-
-
-
-# people["first_names"].each do |first_name| 
-#   if first_name.start_with?("S")
-#     p first_name
-#   end 
-# end
+people["first_names"].each do |first_name| 
+  if first_name.start_with?("S")
+    p first_name
+  end 
+end

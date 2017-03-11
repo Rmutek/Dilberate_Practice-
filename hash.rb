@@ -27,15 +27,18 @@ end
 
 p e_fruit
 
+
+# List all fruits that are medium in size 
 medium_fruit = []
 
 fruits.each do |fruit| 
   if fruit[:size] == "medium"
-    medium_fruit << fruit[:size]
+    puts fruit[:type]
   end 
 end 
 
-puts medium_fruit
+
+# puts medium_fruit.join(" ")
 
 
 
